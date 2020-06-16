@@ -63,4 +63,4 @@ const useWebSocket = (ws, handlers = {}) => {
   };
 };
 
-export default useWebSocket;
+export { useWebSocket };

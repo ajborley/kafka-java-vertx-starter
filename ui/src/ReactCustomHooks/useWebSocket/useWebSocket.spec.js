@@ -1,6 +1,5 @@
-import { MockWebSocket } from '../../TestUtils/index.js';
+import { MockWebSocket, renderHook, act } from 'TestUtils';
 import { useWebSocket } from '../index.js';
-import { renderHook, act } from '@testing-library/react-hooks';
 
 describe('useWebSocket tests', () => {
   let mockSocket;

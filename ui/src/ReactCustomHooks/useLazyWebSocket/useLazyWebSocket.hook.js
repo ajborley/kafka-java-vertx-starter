@@ -72,4 +72,4 @@ const useLazyWebSocket = (ws, handlers = {}) => {
   };
 };
 
-export default useLazyWebSocket;
+export { useLazyWebSocket };
